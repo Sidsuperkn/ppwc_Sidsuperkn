@@ -23,7 +23,7 @@ For this program, we need to ask the user to enter an integer value, referred to
 
 ---
 
-# Question 2:  Store the absolute difference of x and y in y , where the absolute difference is ( x - y ) or (y - x ), whichever is positive. Do not use the abs or fabs function in your solution.
+# Question 2:  Store the absolute difference of a and b in b , where the absolute difference is ( a - b ) or (b-a), whichever is positive. Do not use the abs or fabs function in your solution.
 
 ## Answer:
 
@@ -47,11 +47,11 @@ int main() {
 ```
 
 **Explanation**:
-This program computes the absolute difference between two integers provided by the user, referred to as 'x' and 'y'. It begins by asking the user to input values for both 'x' and 'y'. Next, it evaluates whether 'x' is greater than or equal to 'y'. If this is the case, it calculates the difference as 'x - y', storing the result in 'y'. Conversely, if 'x' is less than 'y', the program determines the difference as 'y - x' and assigns this value to 'y'. In either situation, 'y' will contain the absolute difference between the two integers. The program concludes by displaying this difference, which is guaranteed to be non-negative.
+This program computes the absolute difference between two integers provided by the user, referred to as 'a' and 'b'. It begins by asking the user to input values for both 'a' and 'b'. Next, it evaluates whether 'a' is greater than or equal to 'b'. If this is the case, it calculates the difference as 'a - b', storing the result in 'b'. Conversely, if 'a' is less than 'b', the program determines the difference as 'b- a' and assigns this value to 'b'. In either situation, 'b' will contain the absolute difference between the two integers. The program concludes by displaying this difference, which is guaranteed to be non-negative.
 
 ---
 
-# Question 3:  If x is 0 , add 1 to zero count. If x is negative, add x to minus sum. If x is greater than 0 ,add x to plus sum.
+# Question 3:  If y is 0 , add 1 to zero count. If y is negative, add y to minus sum. If y is greater than 0 ,add y to plus sum.
 
 ## Answer:
 
@@ -79,11 +79,11 @@ int main() {
 }
 ```
 **Explanation**:
-This program classifies a single integer input, 'x', as zero, negative, or positive, while also updating relevant counters or sums based on its value. It starts by initializing three variables: 'zero_count' (to track the number of zeroes), 'minus_sum' (to total negative values), and 'plus_sum' (to total positive values), all set to 0 initially.
+This program classifies a single integer input, 'y', as zero, negative, or positive, while also updating relevant counters or sums based on its value. It starts by initializing three variables: 'zero_count' (to track the number of zeroes), 'minus_sum' (to total negative values), and 'plus_sum' (to total positive values), all set to 0 initially.
 
-Users are prompted to input a value for 'x', after which the program evaluates the value:
-- If 'x' is zero, it increases 'zero_count' by 1.
-- If 'x' is negative, it adds 'x' to 'minus_sum', updating the total of all negative numbers.
-- If 'x' is positive, it includes 'x' in 'plus_sum', updating the total of all positive numbers.
+Users are prompted to input a value for 'y', after which the program evaluates the value:
+- If 'y' is zero, it increases 'zero_count' by 1.
+- If 'y' is negative, it adds 'y' to 'minus_sum', updating the total of all negative numbers.
+- If 'y' is positive, it includes 'y' in 'plus_sum', updating the total of all positive numbers.
 
-In the end, the program displays the current figures for 'zero_count', 'minus_sum', and 'plus_sum', indicating the count of zeros and the cumulative sums of positive and negative integers, respectively. This framework efficiently categorizes `x` while adjusting each variable accordingly.
+In the end, the program displays the current figures for 'zero_count', 'minus_sum', and 'plus_sum', indicating the count of zeros and the cumulative sums of positive and negative integers, respectively. This framework efficiently categorizes `y` while adjusting each variable accordingly.
