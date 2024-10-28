@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 int main() {
-    int x, y;
-    printf("Enter a value for x: ");
-    scanf("%d", &x);
-    printf("Enter a value for y: ");
-    scanf("%d", &y);
-    if (x >= y) {
-        y = x - y;
+    int a, b;
+    printf("Enter a value for a: ");
+    scanf("%d", &a);
+    printf("Enter a value for b: ");
+    scanf("%d", &b);
+    if (a >= b) {
+        b = a - b;
     } else {
-        y = y - x;
+        b = b - a;
     }
-    printf("The absolute difference is: %d\n", y);
+    printf("The absolute difference is: %d\n", b);
     return 0;
 }
