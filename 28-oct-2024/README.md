@@ -63,7 +63,7 @@ int main() {
     int minus_sum = 0;
     int plus_sum = 0;
     int y;
-    printf("Enter a value for x: ");
+    printf("Enter a value for y: ");
     scanf("%d", &y);
     if (y == 0) {
         zero_count += 1;
