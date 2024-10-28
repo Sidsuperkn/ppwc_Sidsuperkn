@@ -31,17 +31,17 @@ For this program, we need to ask the user to enter an integer value, referred to
 ```
 #include <stdio.h>
 int main() {
-    int x, y;
-    printf("Enter a value for x: ");
-    scanf("%d", &x);
-    printf("Enter a value for y: ");
-    scanf("%d", &y);
-    if (x >= y) {
-        y = x - y;
+    int a, b;
+    printf("Enter a value for a: ");
+    scanf("%d", &a);
+    printf("Enter a value for b: ");
+    scanf("%d", &b);
+    if (a >= b) {
+        b=a-b;
     } else {
-        y = y - x;
+        b = b - a;
     }
-    printf("The absolute difference is: %d\n", y);
+    printf("The absolute difference is: %d\n", b);
     return 0;
 }
 ```
@@ -62,15 +62,15 @@ int main() {
     int zero_count = 0;
     int minus_sum = 0;
     int plus_sum = 0;
-    int x;
+    int y;
     printf("Enter a value for x: ");
-    scanf("%d", &x);
-    if (x == 0) {
+    scanf("%d", &y);
+    if (y == 0) {
         zero_count += 1;
-    } else if (x < 0) {
-        minus_sum += x;
+    } else if (y < 0) {
+        minus_sum += y;
     } else {
-        plus_sum += x;
+        plus_sum += y;
     }
     printf("Zero count: %d\n", zero_count);
     printf("Minus sum: %d\n", minus_sum);
